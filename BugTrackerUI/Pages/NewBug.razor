@@ -13,10 +13,10 @@
     public Bug AddBug { get; set; } = new Bug();
 
     [Inject]
-    public IBugService BugService;
+    public IBugService BugService { get; set; }
 
     [Inject]
-    public NavigationManager NavService;
+    public NavigationManager NavService { get; set; }
 
     protected void HandleValidSubmit()
     {
