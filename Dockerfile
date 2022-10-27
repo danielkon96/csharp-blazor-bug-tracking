@@ -17,3 +17,4 @@ USER projects
 RUN dotnet build
 
 ENTRYPOINT ["/bin/sh"]
+
